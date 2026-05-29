@@ -1,2 +1,2 @@
-# Montpellier.github.io
+# Montpellier
 # Menu WEB
