@@ -169,12 +169,17 @@ body::before {
 .menu-item:hover .item-name { color: var(--dorado-brillante); }
 
 .item-desc {
-  font-size: 0.78rem; color: var(--gris);
-  margin-top: 4px; font-style: italic; line-height: 1.5;
-  display: -webkit-box;
+    font-size: 0.78rem;
+    color: var(--gris);
+    margin-top: 4px;
+    font-style: italic;
+    line-height: 1.5;
 
-  -webkit-box-orient: vertical;
-  overflow: hidden;
+    display: -webkit-box;
+    line-clamp: 2;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 
 .item-tags { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 6px; }
