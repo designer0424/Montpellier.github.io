@@ -393,7 +393,7 @@ Cocteleria: {
         price: "$8.000",
         tags: [],
         allergens: "Ninguno",
-        img: ""
+        img: "https://i.ibb.co/ZpTkDBdp/Captura-de-pantalla-2026-06-15-a-la-s-2-46-18-p-m.png"
       },
             {
         name: "Club Colombia",
@@ -401,7 +401,7 @@ Cocteleria: {
         price: "$11.000",
         tags: [],
         allergens: "Ninguno",
-        img: ""
+        img: "https://i.ibb.co/R4bjD0f7/Captura-de-pantalla-2026-06-15-a-la-s-2-48-31-p-m.png"
       },
             {
         name: "Stella Arcotois",
@@ -409,7 +409,7 @@ Cocteleria: {
         price: "$15.900",
         tags: [],
         allergens: "Ninguno",
-        img: ""
+        img: "https://i.ibb.co/gLQWBvWS/Captura-de-pantalla-2026-06-15-a-la-s-2-50-40-p-m.png"
       },
             {
         name: "Costeñita",
@@ -417,7 +417,7 @@ Cocteleria: {
         price: "$6.000",
         tags: [],
         allergens: "Ninguno",
-        img: ""
+        img: "https://i.ibb.co/FbpzJtd4/Captura-de-pantalla-2026-06-15-a-la-s-2-52-38-p-m.png"
       },
             {
         name: "Sangria",
@@ -425,7 +425,7 @@ Cocteleria: {
         price: "$24.000",
         tags: [],
         allergens: "Ninguno",
-        img: ""
+        img: "https://i.ibb.co/XkYrnT4B/Captura-de-pantalla-2026-06-15-a-la-s-2-56-19-p-m.png"
       },
             {
         name: "Vino Espumoso",
@@ -433,7 +433,7 @@ Cocteleria: {
         price: "$24.000",
         tags: [],
         allergens: "Ninguno",
-        img: ""
+        img: "https://i.ibb.co/VYMkSwmH/Captura-de-pantalla-2026-06-15-a-la-s-2-57-43-p-m.png"
       },
             {
       type: "section",
@@ -453,7 +453,7 @@ Cocteleria: {
         price: "$7.500",
         tags: [],
         allergens: "Ninguno",
-        img: ""
+        img: "https://i.ibb.co/0p8nb266/Captura-de-pantalla-2026-06-15-a-la-s-3-00-15-p-m.png"
       },
             {
         name: "Sprite",
@@ -461,7 +461,7 @@ Cocteleria: {
         price: "$7.500",
         tags: [],
         allergens: "Ninguno",
-        img: ""
+        img: "https://i.ibb.co/MkZJY8Ry/Captura-de-pantalla-2026-06-15-a-la-s-3-01-44-p-m.png"
       },
             {
         name: "Coca Cola",
@@ -469,7 +469,7 @@ Cocteleria: {
         price: "$8.000",
         tags: [],
         allergens: "Ninguno",
-        img: ""
+        img: "https://i.ibb.co/SwXmGGmn/Captura-de-pantalla-2026-06-15-a-la-s-2-59-09-p-m.png"
       },
             {
         name: "Soda Hatsu",
@@ -477,7 +477,7 @@ Cocteleria: {
         price: "$8.000",
         tags: [],
         allergens: "Ninguno",
-        img: ""
+        img: "https://i.ibb.co/cSY5rZF2/Captura-de-pantalla-2026-06-15-a-la-s-3-02-39-p-m.png"
       },
             {
         name: "Te Hatsu",
@@ -485,7 +485,7 @@ Cocteleria: {
         price: "$10.000",
         tags: [],
         allergens: "Ninguno",
-        img: ""
+        img: "https://i.ibb.co/MkptgQML/Captura-de-pantalla-2026-06-15-a-la-s-3-04-03-p-m.png"
       },
             {
         name: "Limonada de Coco",
@@ -493,7 +493,7 @@ Cocteleria: {
         price: "$18.000",
         tags: [],
         allergens: "Ninguno",
-        img: ""
+        img: "https://i.ibb.co/zT3G0jK8/Captura-de-pantalla-2026-06-15-a-la-s-3-05-43-p-m.png"
       },
             {
         name: "Limonada Cerezada",
@@ -501,7 +501,7 @@ Cocteleria: {
         price: "$13.000",
         tags: [],
         allergens: "Ninguno",
-        img: ""
+        img: "https://i.ibb.co/FQ441mq/Captura-de-pantalla-2026-06-15-a-la-s-3-08-11-p-m.png"
       },
             {
         name: "Limonada Natural",
@@ -509,7 +509,7 @@ Cocteleria: {
         price: "$10.000",
         tags: [],
         allergens: "Ninguno",
-        img: ""
+        img: "https://i.ibb.co/BV4ktwTV/Captura-de-pantalla-2026-06-15-a-la-s-3-06-20-p-m.png"
       },
       /* ← Para agregar más bebidas, pega un bloque aquí antes del ] */
     ]
