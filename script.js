@@ -58,43 +58,83 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // ── Construir tarjeta ─────────────────────
   function buildItem(item, index) {
-    const div = document.createElement('div');
-    div.className = 'menu-item';
 
-    const tagsHTML = (item.tags || []).map(tag => {
-      const cls = tag.toLowerCase() === 'vegano'  ? 'vegano'
-                : tag.toLowerCase() === 'popular' ? 'popular'
-                : tag.toLowerCase() === 'chef'    ? 'chef' : '';
-      return `<span class="tag ${cls}">${tag}</span>`;
-    }).join('');
+  // Título de sección dentro del menú
+if (item.type === 'section') {
+  const title = document.createElement('div');
 
-    const imgHTML = item.img
-      ? `<div class="item-thumb"><img src="${item.img}" alt="${item.name}" loading="lazy"/></div>`
-      : `<div class="item-thumb" style="display:flex;align-items:center;justify-content:center;">
-           <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#A37C4A" stroke-width="1" opacity="0.4">
-             <rect x="3" y="3" width="18" height="18" rx="1"/><circle cx="8.5" cy="8.5" r="1.5"/>
-             <polyline points="21 15 16 10 5 21"/>
-           </svg>
-         </div>`;
+  title.style.gridColumn = '1 / -1';
+  title.style.textAlign = 'center';
+  title.style.margin = '45px 0 25px';
 
-    div.innerHTML = `
-      <div class="item-inner">
-        ${imgHTML}
-        <div class="item-info">
-          <div class="item-name">${item.name}</div>
-          <div class="item-desc">${item.desc}</div>
-          ${tagsHTML ? `<div class="item-tags">${tagsHTML}</div>` : ''}
-        </div>
-        <div class="item-right">
-          <span class="item-price">${item.price}</span>
-          <div class="item-arrow">›</div>
-        </div>
-      </div>
-    `;
+  title.innerHTML = `
+    <div class="ornament">
+      <div class="ornament-line"></div>
+      <div class="ornament-diamond"></div>
+      <div class="ornament-line right"></div>
+    </div>
 
-    div.addEventListener('click', () => openModal(item));
-    return div;
+    <h2 class="section-title autor-title">
+      ${item.title}
+    </h2>
+
+    <div class="ornament">
+      <div class="ornament-line"></div>
+      <div class="ornament-diamond"></div>
+      <div class="ornament-line right"></div>
+    </div>
+  `;
+
+  return title;
+
   }
+
+  const div = document.createElement('div');
+  div.className = 'menu-item';
+
+  const tagsHTML = (item.tags || []).map(tag => {
+    const cls = tag.toLowerCase() === 'vegano'  ? 'vegano'
+              : tag.toLowerCase() === 'popular' ? 'popular'
+              : tag.toLowerCase() === 'chef'    ? 'chef' : '';
+    return `<span class="tag ${cls}">${tag}</span>`;
+  }).join('');
+
+  const imgHTML = item.img
+    ? `<div class="item-thumb"><img src="${item.img}" alt="${item.name}" loading="lazy"/></div>`
+    : `<div class="item-thumb" style="display:flex;align-items:center;justify-content:center;">
+         <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#A37C4A" stroke-width="1" opacity="0.4">
+           <rect x="3" y="3" width="18" height="18" rx="1"/>
+           <circle cx="8.5" cy="8.5" r="1.5"/>
+           <polyline points="21 15 16 10 5 21"/>
+         </svg>
+       </div>`;
+
+  div.innerHTML = `
+    <div class="item-inner">
+      ${imgHTML}
+      <div class="item-info">
+        <div class="item-name">${item.name}</div>
+        <div class="item-desc">${item.desc}</div>
+        ${tagsHTML ? `<div class="item-tags">${tagsHTML}</div>` : ''}
+      </div>
+      <div class="item-right">
+        <span class="item-price">${item.shot && item.bottle
+  ? `
+    <div class="item-prices">
+      <span class="item-price">Shot: ${item.shot}</span>
+      <span class="item-price">Botella: ${item.bottle}</span>
+    </div>
+  `
+  : `<span class="item-price">${item.price}</span>`
+}
+        <div class="item-arrow">›</div>
+      </div>
+    </div>
+  `;
+
+  div.addEventListener('click', () => openModal(item));
+  return div;
+}
 
   // ── MODAL ─────────────────────────────────
   function openModal(item) {

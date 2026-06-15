@@ -73,42 +73,27 @@ const MENU_DATA = {
       /* ← Para agregar más entradas, pega un bloque aquí antes del ] */
     ]
   }, 
-     entradas: {
-    title: "Entradas",
-    tagline: "Para comenzar el viaje",
+     Para_Compartir: {
+    title: "Para Compartir",
+    tagline: "Para alimentar el grupo",
     items: [
       {
-        name: "Nombre del plato",//#1
-        desc: "Descripción breve del plato, ingredientes principales y forma de preparación.",
-        price: "$00.000",
+        name: "Parrilla Mar",//#1
+        desc: "Exquisita parrillada de mariscos con cola de langosta, langostinos, camarones, mejillones, mazorquitas, calamares salteados en salsa rocoto y chimichurri. Acompañados de patacones y suero costeño.",
+        price: "$125.000",
         tags: [],
         allergens: "Ninguno",
-        img: "https://images.unsplash.com/photo-1547592180-85f173990554"
+        img: ""
       },
       {
-        name: "Nombre del plato",//#2
-        desc: "Descripción breve del plato, ingredientes principales y forma de preparación.",
-        price: "$00.000",
+        name: "Parrilla TIERRA",//#2
+        desc: "Pechuga de pollo asada, churrasco al fuego, bondiola y solomito de res acompañados con croquetas de yuca frita, chimichurri y suero costeño.",
+        price: "$85.000",
         tags: ["Popular"],
         allergens: "Ninguno",
         img: "https://images.unsplash.com/photo-1608039755401-742074f0548d"
       },
-      {
-        name: "Nombre del plato",//#3
-        desc: "Descripción breve del plato, ingredientes principales y forma de preparación.",
-        price: "$00.000",
-        tags: ["Chef"],
-        allergens: "Ninguno",
-        img: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd"
-      },
-      {
-        name: "Nombre del plato",//#4
-        desc: "Descripción breve del plato, ingredientes principales y forma de preparación.",
-        price: "$00.000",
-        tags: [],
-        allergens: "Ninguno",
-        img: "https://images.unsplash.com/photo-1473093295043-cdd812d0e601"
-      }
+      
       /* ← Para agregar más entradas, pega un bloque aquí antes del ] */
     ]
   },
@@ -116,265 +101,280 @@ const MENU_DATA = {
   /* ──────────────────────────────────────────
      2. PLATO FUERTE
      ────────────────────────────────────────── */
-  plato_fuerte: {
-    title: "Plato Fuerte",
-    tagline: "El corazón de nuestra cocina",
+  Hamburguesas: {
+    title: "Hamburguesas",
+    tagline: "La Explocion Del Sabor",
     items: [
       {
-        name: "Nombre del plato",
-        desc: "Descripción breve del plato, ingredientes principales y forma de preparación.",
-        price: "$00.000",
+        name: "La Classique",
+        desc: "Pan brioche con 150gr carne de res artesanal, lechuga crespa, tomate fresco, alioli y queso mozzarella crocante.",
+        price: "$35.000",
         tags: ["Chef", "Popular"],
         allergens: "Ninguno",
-        img: "https://images.unsplash.com/photo-1555949258-eb67b1ef0ceb"
+        img: ""
       },
       {
-        name: "Nombre del plato",
-        desc: "Descripción breve del plato, ingredientes principales y forma de preparación.",
-        price: "$00.000",
+        name: "Smash Magestuosa",
+        desc: "Pan brioche con 200gr de carne de res artesanal Smash, cebolla caramelizada, tocineta crocante, BBQ ahumada y queso mozzarella crocante.",
+        price: "$35.000",
         tags: [],
         allergens: "Ninguno",
-        img: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd"
+        img: ""
       },
       {
-        name: "Nombre del plato",
-        desc: "Descripción breve del plato, ingredientes principales y forma de preparación.",
-        price: "$00.000",
+        name: "Crispy Queen",
+        desc: "Pan brioche con 200gr de pechuga de pollo apanada y caramelizada en BBQ coreana, alioli y queso mozzarella crocante.",
+        price: "$45.000",
         tags: ["Popular"],
         allergens: "Ninguno",
-        img: "https://images.unsplash.com/photo-1467003909585-2f8a72700288"
+        img: ""
       },
       {
-        name: "Nombre del plato",
-        desc: "Descripción breve del plato, ingredientes principales y forma de preparación.",
-        price: "$00.000",
+        name: "Dos Naciones",
+        desc: "Pan brioche con 150gr de carne de res artesanal, 150gr de pechuga de pollo a la parrilla, anillos de cebolla crocante, migas de chorizo, alioli y queso mozzarella crocante.",
+        price: "$46.000",
         tags: [],
         allergens: "Ninguno",
-        img: "https://images.unsplash.com/photo-1513104890138-7c749659a591"
+        img: ""
       },
       {
-        name: "Nombre del plato",
-        desc: "Descripción breve del plato, ingredientes principales y forma de preparación.",
-        price: "$00.000",
-        tags: ["Vegano"],
+        name: "Mares de MontPellier",
+        desc: "Pan brioche con 150gr de carne de res artesanal, camarones crocantes, cebolla caramelizada, alioli de pimientos ahumados y queso mozzarella crocante. Acompañada con papas a la francesa.",
+        price: "$43.000",
+        tags: [""],
         allergens: "Ninguno",
-        img: "https://images.unsplash.com/photo-1544025162-d76694265947"
+        img: ""
       },
       {
-        name: "Nombre del plato",
-        desc: "Descripción breve del plato, ingredientes principales y forma de preparación.",
-        price: "$00.000",
-        tags: ["Chef", "Popular"],
+        name: "La Montecarlo",
+        desc: "Pan brioche con 150gr de carne de res artesanal, langostinos bañados en BBQ ahumada, cebolla rostizada y queso mozzarella gratinado.",
+        price: "$48.000",
+        tags: [""],
         allergens: "Ninguno",
-        img: "https://images.unsplash.com/photo-1544025162-d76694265947"
+        img: ""
       },
       {
-        name: "Nombre del plato",
-        desc: "Descripción breve del plato, ingredientes principales y forma de preparación.",
-        price: "$00.000",
-        tags: ["Chef", "Popular"],
+        name: "Calamar Crunch",
+        desc: "Pan brioche con 150gr de carne de res artesanal, anillos de calamar crocantes, tomate fresco, alioli de sriracha y queso mozzarella crocante.",
+        price: "$46.000",
+        tags: [""],
         allergens: "Ninguno",
-        img: "https://images.unsplash.com/photo-1600891964092-4316c288032e"
-      },
-      {
-        name: "Nombre del plato",
-        desc: "Descripción breve del plato, ingredientes principales y forma de preparación.",
-        price: "$00.000",
-        tags: ["Chef", "Popular"],
-        allergens: "Ninguno",
-        img: "https://images.unsplash.com/photo-1516684732162-798a0062be99"
-      },
-      {
-        name: "Nombre del plato",
-        desc: "Descripción breve del plato, ingredientes principales y forma de preparación.",
-        price: "$00.000",
-        tags: ["Chef", "Popular"],
-        allergens: "Ninguno",
-        img: "https://images.unsplash.com/photo-1619895092538-128341789043"
-      },
-      {
-        name: "Nombre del plato",
-        desc: "Descripción breve del plato, ingredientes principales y forma de preparación.",
-        price: "$00.000",
-        tags: ["Chef", "Popular"],
-        allergens: "Ninguno",
-        img: "https://images.unsplash.com/photo-1559847844-5315695dadae"
-      },
-      {
-        name: "Nombre del plato",
-        desc: "Descripción breve del plato, ingredientes principales y forma de preparación.",
-        price: "$00.000",
-        tags: ["Chef", "Popular"],
-        allergens: "Ninguno",
-        img: "https://images.unsplash.com/photo-1559847844-5315695dadae"
-      },
-      {
-        name: "Nombre del plato",
-        desc: "Descripción breve del plato, ingredientes principales y forma de preparación.",
-        price: "$00.000",
-        tags: ["Chef", "Popular"],
-        allergens: "Ninguno",
-        img: "https://images.unsplash.com/photo-1534080564583-6be75777b70a"
-      },
-      {
-        name: "Nombre del plato",
-        desc: "Descripción breve del plato, ingredientes principales y forma de preparación.",
-        price: "$00.000",
-        tags: ["Chef", "Popular"],
-        allergens: "Ninguno",
-        img: "https://images.unsplash.com/photo-1626700051175-6818013e1d4f"
-      },
-      {
-        name: "Nombre del plato",
-        desc: "Descripción breve del plato, ingredientes principales y forma de preparación.",
-        price: "$00.000",
-        tags: ["Chef", "Popular"],
-        allergens: "Ninguno",
-        img: "https://images.unsplash.com/photo-1558030006-450675393462"
-      },
-      {
-        name: "Nombre del plato",
-        desc: "Descripción breve del plato, ingredientes principales y forma de preparación.",
-        price: "$00.000",
-        tags: ["Chef", "Popular"],
-        allergens: "Ninguno",
-        img: "https://images.unsplash.com/photo-1546793665-c74683f339c1"
-      },
-      {
-        name: "Nombre del plato",
-        desc: "Descripción breve del plato, ingredientes principales y forma de preparación.",
-        price: "$00.000",
-        tags: ["Chef", "Popular"],
-        allergens: "Ninguno",
-        img: "https://images.unsplash.com/photo-1473093295043-cdd812d0e601"
-      },
-      {
-        name: "Nombre del plato",
-        desc: "Descripción breve del plato, ingredientes principales y forma de preparación.",
-        price: "$00.000",
-        tags: ["Chef", "Popular"],
-        allergens: "Ninguno",
-        img: "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9"
-      },
-      {
-        name: "Nombre del plato",
-        desc: "Descripción breve del plato, ingredientes principales y forma de preparación.",
-        price: "$00.000",
-        tags: ["Chef", "Popular"],
-        allergens: "Ninguno",
-        img: "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9"
-      },
-      {
-        name: "Nombre del plato",
-        desc: "Descripción breve del plato, ingredientes principales y forma de preparación.",
-        price: "$00.000",
-        tags: ["Chef", "Popular"],
-        allergens: "Ninguno",
-        img: "https://images.unsplash.com/photo-1432139555190-58524dae6a55"
-      },
-      {
-        name: "Nombre del plato",
-        desc: "Descripción breve del plato, ingredientes principales y forma de preparación.",
-        price: "$00.000",
-        tags: ["Chef", "Popular"],
-        allergens: "Ninguno",
-        img: "https://images.unsplash.com/photo-1557872943-16a5ac26437e"
-      },
-      {
-        name: "Nombre del plato",
-        desc: "Descripción breve del plato, ingredientes principales y forma de preparación.",
-        price: "$00.000",
-        tags: ["Chef", "Popular"],
-        allergens: "Ninguno",
-        img: "https://images.unsplash.com/photo-1512058564366-18510be2db19"
-      },
-      {
-        name: "Nombre del plato",
-        desc: "Descripción breve del plato, ingredientes principales y forma de preparación.",
-        price: "$00.000",
-        tags: ["Chef", "Popular"],
-        allergens: "Ninguno",
-        img: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38"
-      },
-      {
-        name: "Nombre del plato",
-        desc: "Descripción breve del plato, ingredientes principales y forma de preparación.",
-        price: "$00.000",
-        tags: ["Chef", "Popular"],
-        allergens: "Ninguno",
-        img: "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
-      },
-      {
-        name: "Nombre del plato",
-        desc: "Descripción breve del plato, ingredientes principales y forma de preparación.",
-        price: "$00.000",
-        tags: ["Chef", "Popular"],
-        allergens: "Ninguno",
-        img: "https://images.unsplash.com/photo-1529042410759-befb1204b468"
-      },
-      {
-        name: "Nombre del plato",
-        desc: "Descripción breve del plato, ingredientes principales y forma de preparación.",
-        price: "$00.000",
-        tags: ["Chef", "Popular"],
-        allergens: "Ninguno",
-        img: "https://images.unsplash.com/photo-1529042410759-befb1204b468"
-      },
-      {
-        name: "Nombre del plato",
-        desc: "Descripción breve del plato, ingredientes principales y forma de preparación.",
-        price: "$00.000",
-        tags: ["Chef", "Popular"],
-        allergens: "Ninguno",
-        img: "https://images.unsplash.com/photo-1529042410759-befb1204b468"
-      },
-
-      /* ← Para agregar más platos fuertes, pega un bloque aquí antes del ] */
+        img: ""
+      },      /* ← Para agregar más platos fuertes, pega un bloque aquí antes del ] */
     ]
   },
 
   /* ──────────────────────────────────────────
      3. POSTRES
      ────────────────────────────────────────── */
-  postres: {
-    title: "Postres",
-    tagline: "El final perfecto",
+  Platos_Fuertes: {
+    title: "Platos Fuertes",
+    tagline: "Lo Fuerte de MontPellier",
     items: [
       {
-        name: "Nombre del postre",
-        desc: "Descripción breve del postre, ingredientes principales y forma de preparación.",
-        price: "$00.000",
-        tags: ["Popular"],
-        allergens: "Ninguno",
-        img: "https://images.unsplash.com/photo-1563805042-7684c019e1cb"
+        name: "Churrasco al Fuego",
+        desc: "300gr de Jugoso churrasco a la parrilla con chimichurri, acompañado de papas casco con parmesano, migas de chorizo y alioli",
+        price: "$58.000",
+        tags: [""],
+        allergens: "",
+        img: ""
       },
       {
-        name: "Nombre del postre",
-        desc: "Descripción breve del postre, ingredientes principales y forma de preparación.",
-        price: "$00.000",
+        name: "Pollito Coreano",
+        desc: "Cubos de pollo apanado y cubiertos en BBQ coreana,terminados con semillas de ajonjolí y cebollin, servidos sobre una cama de queso mozarella y cremoso puré de papa.",
+        price: "$42.000",
         tags: [],
         allergens: "Ninguno",
-        img: "https://images.unsplash.com/photo-1551024601-bec78aea704b"
+        img: ""
       },
       {
-        name: "Nombre del postre",
-        desc: "Descripción breve del postre, ingredientes principales y forma de preparación.",
-        price: "$00.000",
+        name: "Costillas ST. Louis",
+        desc: "Costillas de cerdo caramelizadas en BBQ ahumada, acompañadas de papas a la francesa crocantes con alioli y queso costeño.",
+        price: "$70.000",
         tags: ["Chef"],
         allergens: "Ninguno",
-        img: "https://images.unsplash.com/photo-1578985545062-69928b1d9587"
+        img: ""
       },
       {
-        name: "Nombre del postre",
-        desc: "Descripción breve del postre, ingredientes principales y forma de preparación.",
-        price: "$00.000",
+        name: "Brisas de MontPellier",
+        desc: "Filete de pesca blanca a la plancha en salsa al ajillo, acompañado de puré trufado con parmesano",
+        price: "$70.000",
         tags: ["Vegano"],
         allergens: "Ninguno",
-        img: "https://images.unsplash.com/photo-1488477181946-6428a0291777"
+        img: ""
       }
       /* ← Para agregar más postres, pega un bloque aquí antes del ] */
     ]
   },
+  Picadas: {
+    title: "Picadas",
+    tagline: "La Mejor Convinacion de sabores",
+    items: [
+      {
+        name: "La Consentida",
+        desc: "Pechuga de pollo, chorizo santarrosano, cebolla caramelizada, papas casco, alioli de pimientos, queso gratinado, cebollín y tocineta.",
+        price: "$47.000",
+        tags: [""],
+        allergens: "",
+        img: ""
+      },
+      {
+        name: "La Emblematica",
+        desc: "Chicharrón, chorizo santarrosano, dados de queso crocante, papas a la francesa, cubitos de piña asada, alioli de pimientos y salsa de la casa.",
+        price: "$49.000",
+        tags: [""],
+        allergens: "",
+        img: ""
+      },
+      {
+        name: "La Patrona",
+        desc: "Churrasco, chicharrón, chorizo santarrosano, dados de queso crocante, ripio de patacón, chimichurri, alioli y papas a la francesa.",
+        price: "$52.000",
+        tags: [""],
+        allergens: "",
+        img: ""
+      },
+    ]
+  },
+      Recomendado: {
+    title: "Recomendado",
+    tagline: "Lo Mejor de lo Mejor",
+    items: [
+      {
+        name: "Perrito de Pollo y Tocineta",
+        desc: "Pan brioche, pechuga de pollo cubierta con mermelada de tocineta y cebollín.",
+        price: "$36.000",
+        tags: [""],
+        allergens: "",
+        img: ""
+      },
+    ]
+  },
+      Postres: {
+    title: "Postres",
+    tagline: "Lo fuerte de Nosotros",
+    items: [
+      {
+        name: "Wonder Brawnie",
+        desc: "Melcochudo brownie de Milo cubierto con crema de pistacho de la casa, crumble de galleta y acompañado de helado de vainilla",
+        price: "$25.000",
+        tags: [""],
+        allergens: "",
+        img: ""
+      },
+            {
+        name: "Volcan de Arequipe",
+        desc: "Bizcocho de arequipe con notas de amaretto acompañado con helado de vainilla.",
+        price: "$24.900",
+        tags: [""],
+        allergens: "",
+        img: ""
+      },
+            {
+        name: "Klim Cookie",
+        desc: "Galleta crujiente con relleno melcochudo de leche klim acompañado con helado de vainilla",
+        price: "$23.000",
+        tags: [""],
+        allergens: "",
+        img: ""
+      },
+    ]
+  },
+Cocteleria: {
+  title: "Coctelería",
+  tagline: "Nuestra selección de cócteles",
+
+  items: [
+    {
+      type: "section",
+      title: "Cocteleria Tradicional"
+    },
+    {
+      name: "Margarita",
+      desc: "",
+      price: "$22.000",
+      img: ""
+    },
+    {
+      name: "Mojito",
+      desc: "",
+      price: "$22.000",
+      img: ""
+    },
+    {
+      name: "Moscow Mule",
+      desc: "",
+      price: "$22.000",
+      img: ""
+    },
+    {
+      name: "Piña Colada",
+      desc: "",
+      price: "$26.000",
+      img: ""
+    },
+    {
+      name: "Sex On The Beach",
+      desc: "",
+      price: "$22.000",
+      img: ""
+    },
+    {
+      name: "Caipiroska de Jamaica",
+      desc: "",
+      price: "$22.000",
+      img: ""
+    },
+    {
+      name: "Bramble",
+      desc: "",
+      price: "$22.000",
+      img: ""
+    },
+    {
+      name: "Caipirinha",
+      desc: "",
+      price: "$22.000",
+      img: ""
+    },
+    {
+      name: "Fiero Spritz",
+      desc: "",
+      price: "$25.000",
+      img: ""
+    },
+    {
+      type: "section",
+      title: "Cocteleria de Autor"
+    },
+
+    {
+      name: "Morenaza",
+      desc: "Tequila, mezcal, sirope de vainilla, gulupa y sirope de masmelo.",
+      price: "$30.000",
+      img: ""
+    },
+    {
+      name: "El Jardín Secreto",
+      desc: "Ginebra de frambuesa, zumo de limón, mermelada de mora, sirope de especias.",
+      price: "$30.000",
+      img: ""
+    },
+    {
+      name: "Piñita Piscosa",
+      desc: "Tequila de chile de árbol, zumo de piña, zumo de maracuyá, zumo de limón y miel de agave.",
+      price: "$30.000",
+      img: ""
+    },
+    {
+      name: "Costeñita Premium",
+      desc: "Vodka, limón, maracuyá, cítricos y costeñita.",
+      price: "$30.000",
+      img: ""
+    }
+  ]
+},
+
 
   /* ──────────────────────────────────────────
      4. BEBIDAS
@@ -383,38 +383,134 @@ const MENU_DATA = {
     title: "Bebidas",
     tagline: "Para acompañar",
     items: [
+       {
+      type: "section",
+      title: "Bebidas con Alcohol"
+    },
       {
-        name: "Nombre de la bebida",
-        desc: "Descripción breve: tipo, origen o características principales.",
-        price: "$00.000",
+        name: "Coronita",
+        desc: "",
+        price: "$8.000",
         tags: [],
         allergens: "Ninguno",
-        img: "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd"
+        img: ""
       },
-      {
-        name: "Nombre de la bebida",
-        desc: "Descripción breve: tipo, origen o características principales.",
-        price: "$00.000",
-        tags: ["Popular"],
-        allergens: "Ninguno",
-        img: "https://images.unsplash.com/photo-1497534446932-c925b458314e"
-      },
-      {
-        name: "Nombre de la bebida",
-        desc: "Descripción breve: tipo, origen o características principales.",
-        price: "$00.000",
+            {
+        name: "Club Colombia",
+        desc: "",
+        price: "$11.000",
         tags: [],
         allergens: "Ninguno",
-        img: "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b"
+        img: ""
       },
-      {
-        name: "Nombre de la bebida",
-        desc: "Descripción breve: tipo, origen o características principales.",
-        price: "$00.000",
+            {
+        name: "Stella Arcotois",
+        desc: "",
+        price: "$15.900",
         tags: [],
-        allergens: "Sulfitos",
-        img: "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
-      }
+        allergens: "Ninguno",
+        img: ""
+      },
+            {
+        name: "Costeñita",
+        desc: "",
+        price: "$6.000",
+        tags: [],
+        allergens: "Ninguno",
+        img: ""
+      },
+            {
+        name: "Sangria",
+        desc: "",
+        price: "$24.000",
+        tags: [],
+        allergens: "Ninguno",
+        img: ""
+      },
+            {
+        name: "Vino Espumoso",
+        desc: "",
+        price: "$24.000",
+        tags: [],
+        allergens: "Ninguno",
+        img: ""
+      },
+            {
+      type: "section",
+      title: "Bebidas sin Alcohol"
+      },
+            {
+        name: "Agua sin Gas",
+        desc: "",
+        price: "$5.000",
+        tags: [],
+        allergens: "Ninguno",
+        img: ""
+      },
+            {
+        name: "Schweeppes",
+        desc: "",
+        price: "$7.500",
+        tags: [],
+        allergens: "Ninguno",
+        img: ""
+      },
+            {
+        name: "Sprite",
+        desc: "",
+        price: "$7.500",
+        tags: [],
+        allergens: "Ninguno",
+        img: ""
+      },
+            {
+        name: "Coca Cola",
+        desc: "",
+        price: "$8.000",
+        tags: [],
+        allergens: "Ninguno",
+        img: ""
+      },
+            {
+        name: "Soda Hatsu",
+        desc: "",
+        price: "$8.000",
+        tags: [],
+        allergens: "Ninguno",
+        img: ""
+      },
+            {
+        name: "Te Hatsu",
+        desc: "",
+        price: "$10.000",
+        tags: [],
+        allergens: "Ninguno",
+        img: ""
+      },
+            {
+        name: "Limonada de Coco",
+        desc: "",
+        price: "$18.000",
+        tags: [],
+        allergens: "Ninguno",
+        img: ""
+      },
+            {
+        name: "Limonada Cerezada",
+        desc: "",
+        price: "$13.000",
+        tags: [],
+        allergens: "Ninguno",
+        img: ""
+      },
+            {
+        name: "Limonada Natural",
+        desc: "",
+        price: "$10.000",
+        tags: [],
+        allergens: "Ninguno",
+        img: ""
+      },
       /* ← Para agregar más bebidas, pega un bloque aquí antes del ] */
     ]
   },
@@ -422,51 +518,77 @@ const MENU_DATA = {
   /* ──────────────────────────────────────────
      5. CÓCTELES
      ────────────────────────────────────────── */
-  cocteles: {
-    title: "Cócteles",
-    tagline: "Mixología de autor",
+  botellas: {
+    title: "Botellas",
+    tagline: "Las Mejores Botellas ",
     items: [
       {
-        name: "Nombre del cóctel",
-        desc: "Descripción breve: base alcohólica, notas de sabor y presentación.",
-        price: "$00.000",
-        tags: ["Chef", "Popular"],
-        allergens: "Ninguno",
-        img: "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b"
+        name: "Tequila Jose Cuervo Especial",
+        desc: "",
+        shot: "$9.600",
+        bottle: "$134.000",
+        img: ""
       },
-      {
-        name: "Nombre del cóctel",
-        desc: "Descripción breve: base alcohólica, notas de sabor y presentación.",
-        price: "$00.000",
-        tags: [],
-        allergens: "Ninguno",
-        img: "https://images.unsplash.com/photo-1470337458703-46ad1756a187"
+            {
+        name: "Ron Viejo Caldas",
+        desc: "",
+        shot: "$5.000",
+        bottle: "$65.000",
+        img: ""
       },
-      {
-        name: "Nombre del cóctel",
-        desc: "Descripción breve: base alcohólica, notas de sabor y presentación.",
-        price: "$00.000",
-        tags: ["Popular"],
-        allergens: "Ninguno",
-        img: "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd"
+            {
+        name: "Gordon Dry Gin",
+        desc: "",
+        shot: "$8.000",
+        bottle: "$110.000",
+        img: ""
       },
-      {
-        name: "Nombre del cóctel",
-        desc: "Descripción breve: base alcohólica, notas de sabor y presentación.",
-        price: "$00.000",
-        tags: [],
-        allergens: "Ninguno",
-        img: "https://images.unsplash.com/photo-1517620430776-0ec904756579"
+            {
+        name: "Gordon Pink Gin",
+        desc: "",
+        shot: "$11.000",
+        bottle: "$155.000",
+        img: ""
       },
-      {
-        name: "Sin Alcohol",
-        desc: "Opción sin alcohol. Describe los ingredientes y sabores principales.",
-        price: "$00.000",
-        tags: ["Vegano"],
-        allergens: "Ninguno",
-        img: "https://images.unsplash.com/photo-1517620430776-0ec904756579"
-      }
-      /* ← Para agregar más cócteles, pega un bloque aquí antes del ] */
+            {
+        name: "Martin Fierro",
+        desc: "",
+        shot: "$10.000",
+        bottle: "$123.000",
+        img: ""
+      },
+            {
+        name: "Aguardiente",
+        desc: "",
+        shot: "$5.500",
+        bottle: "$76.00",
+        img: ""
+      },
+            {
+        name: "Smirnoff Vodka",
+        desc: "",
+        shot: "$9.500",
+        bottle: "$128.500",
+        img: ""
+      },
+            {
+        name: "Vino Blanco",
+        desc: "",
+        bottle: "$142.000",
+        img: ""
+      },
+            {
+        name: "Vino rosaleda",
+        desc: "",
+        bottle: "$33.000",
+        img: ""
+      },
+            {
+        name: "Sangria",
+        desc: "",
+        bottle: "112.000",
+        img: ""
+      },
     ]
   }
 

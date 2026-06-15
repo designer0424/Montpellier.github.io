@@ -510,3 +510,17 @@ body::before {
   .welcome-text { font-size: 0.82rem; }
   .welcome-section { padding: 24px 16px 20px; }
 }
+.autor-title {
+  color: #D4AF7A;
+}
+.item-prices {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+}
+
+.item-prices .item-price {
+  font-size: 0.85rem;
+  color: var(--dorado-brillante);
+}
