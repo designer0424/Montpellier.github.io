@@ -53,7 +53,6 @@ document.addEventListener('DOMContentLoaded', () => {
       b.classList.toggle('active', b.dataset.key === key));
     document.querySelectorAll('.menu-section').forEach(s =>
       s.classList.toggle('active', s.id === `section-${key}`));
-    window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
   // ── Construir tarjeta ─────────────────────
