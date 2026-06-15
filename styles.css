@@ -291,17 +291,25 @@ body::before {
 .welcome-invite { color: var(--dorado-claro) !important; font-style: italic; }
 
 /* Imagen de GastÃ³n â€” tamaÃ±o fijo pequeÃ±o */
-.welcome-mascot {
-  flex-shrink: 0;
-  width: 160px;
+.welcome-body {
+  display: block;
 }
+
+.welcome-mascot {
+  float: right;
+  width: 180px;
+  margin: 0 0 12px 16px;
+}
+
 .welcome-mascot img {
-  width: 160px;
-  height: 220px;
-  object-fit: contain;
-  object-position: top center;
+  width: 100%;
+  height: auto;
   display: block;
   filter: drop-shadow(0 2px 8px rgba(163,124,74,0.2));
+}
+
+@media (max-width: 400px) {
+  .welcome-mascot { width: 130px; }
 }
 
 .welcome-closing { margin-top: 20px; }

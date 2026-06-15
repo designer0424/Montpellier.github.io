@@ -293,55 +293,55 @@ Cocteleria: {
       name: "Margarita",
       desc: "",
       price: "$22.000",
-      img: ""
+      img: "https://i.ibb.co/ZRssMyXv/Captura-de-pantalla-2026-06-15-a-la-s-4-46-36-p-m.png"
     },
     {
       name: "Mojito",
       desc: "",
       price: "$22.000",
-      img: ""
+      img: "https://i.ibb.co/ycFSZHPP/Captura-de-pantalla-2026-06-15-a-la-s-4-47-31-p-m.png"
     },
     {
       name: "Moscow Mule",
       desc: "",
       price: "$22.000",
-      img: ""
+      img: "https://i.ibb.co/Mkn0F80V/Captura-de-pantalla-2026-06-15-a-la-s-4-48-34-p-m.png"
     },
     {
       name: "Piña Colada",
       desc: "",
       price: "$26.000",
-      img: ""
+      img: "https://i.ibb.co/fzY1ttXZ/Captura-de-pantalla-2026-06-15-a-la-s-4-49-36-p-m.png"
     },
     {
       name: "Sex On The Beach",
       desc: "",
       price: "$22.000",
-      img: ""
+      img: "https://i.ibb.co/Mk0nWQqc/Captura-de-pantalla-2026-06-15-a-la-s-4-50-35-p-m.png"
     },
     {
       name: "Caipiroska de Jamaica",
       desc: "",
       price: "$22.000",
-      img: ""
+      img: "https://i.ibb.co/pBCXddh2/Captura-de-pantalla-2026-06-15-a-la-s-4-52-31-p-m.png"
     },
     {
       name: "Bramble",
       desc: "",
       price: "$22.000",
-      img: ""
+      img: "https://i.ibb.co/ccTRFnRx/Captura-de-pantalla-2026-06-15-a-la-s-4-53-18-p-m.png"
     },
     {
       name: "Caipirinha",
       desc: "",
       price: "$22.000",
-      img: ""
+      img: "https://i.ibb.co/wFmrYY3w/Captura-de-pantalla-2026-06-15-a-la-s-4-53-55-p-m.png"
     },
     {
       name: "Fiero Spritz",
       desc: "",
       price: "$25.000",
-      img: ""
+      img: "https://i.ibb.co/HTnjctQr/Captura-de-pantalla-2026-06-15-a-la-s-4-54-37-p-m.png"
     },
     {
       type: "section",
@@ -527,67 +527,67 @@ Cocteleria: {
         desc: "",
         shot: "$9.600",
         bottle: "$134.000",
-        img: ""
+        img: "https://i.ibb.co/hJ3sx0w3/Captura-de-pantalla-2026-06-15-a-la-s-4-56-37-p-m.png"
       },
             {
         name: "Ron Viejo Caldas",
         desc: "",
         shot: "$5.000",
         bottle: "$65.000",
-        img: ""
+        img: "https://i.ibb.co/Y7N5d88K/Captura-de-pantalla-2026-06-15-a-la-s-5-05-39-p-m.png"
       },
             {
         name: "Gordon Dry Gin",
         desc: "",
         shot: "$8.000",
         bottle: "$110.000",
-        img: ""
+        img: "https://i.ibb.co/S4QGqQfn/Captura-de-pantalla-2026-06-15-a-la-s-5-09-04-p-m.png"
       },
             {
         name: "Gordon Pink Gin",
         desc: "",
         shot: "$11.000",
         bottle: "$155.000",
-        img: ""
+        img: "https://i.ibb.co/gMqLmt5z/Captura-de-pantalla-2026-06-15-a-la-s-5-10-45-p-m.png"
       },
             {
         name: "Martin Fierro",
         desc: "",
         shot: "$10.000",
         bottle: "$123.000",
-        img: ""
+        img: "https://i.ibb.co/ynRr6hZD/Captura-de-pantalla-2026-06-15-a-la-s-5-17-44-p-m.png"
       },
             {
         name: "Aguardiente",
         desc: "",
         shot: "$5.500",
         bottle: "$76.00",
-        img: ""
+        img: "https://i.ibb.co/6cJHDh1N/Captura-de-pantalla-2026-06-15-a-la-s-5-17-09-p-m.png"
       },
             {
         name: "Smirnoff Vodka",
         desc: "",
         shot: "$9.500",
         bottle: "$128.500",
-        img: ""
+        img: "https://i.ibb.co/QvW4zxSt/Captura-de-pantalla-2026-06-15-a-la-s-5-03-29-p-m.png"
       },
             {
         name: "Vino Blanco",
         desc: "",
         bottle: "$142.000",
-        img: ""
+        img: "https://i.ibb.co/HTx1Pmdk/Captura-de-pantalla-2026-06-15-a-la-s-5-19-07-p-m.png"
       },
             {
         name: "Vino rosaleda",
         desc: "",
         bottle: "$33.000",
-        img: ""
+        img: "https://i.ibb.co/BHZG9RGM/Captura-de-pantalla-2026-06-15-a-la-s-5-19-46-p-m.png"
       },
             {
         name: "Sangria",
         desc: "",
         bottle: "112.000",
-        img: ""
+        img: "https://i.ibb.co/cKfFTRD9/Captura-de-pantalla-2026-06-15-a-la-s-5-20-36-p-m.png"
       },
     ]
   }
