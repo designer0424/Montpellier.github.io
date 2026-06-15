@@ -24,9 +24,56 @@
 const MENU_DATA = {
 
   /* ──────────────────────────────────────────
-     1. ENTRADAS
+     1. para comenzar 
      ────────────────────────────────────────── */
-  entradas: {
+  Bienvenidos: {
+    title: "Para Comenzar",
+    tagline: "Para comenzar el viaje",
+    items: [
+      {
+        name: "La trilogia de Montpellier",//#1
+        desc: " 3 Unidades de pan brioche mini rellenos de camarón y carne de jaiba en cremosa salsa bisque, terminados con queso mozzarella, alioli y cilantro fresco.",
+        price: "$43.500",
+        tags: [],
+        allergens: "Ninguno",
+        img: ""
+      },
+      {
+        name: "Nachos de Carne y Jalapeños",//#1
+        desc: "Totopos crocantes bañados en carne de res artesanal molida, queso mozzarella gratinado, jalapeños y cebollas encurtidas, acompañados de guacamole y suero costeño. ",
+        price: "$38.500",
+        tags: [],
+        allergens: "Ninguno",
+        img: ""
+      },
+      {
+        name: "Empanaditas Pork Belly",//#1
+        desc: "5 Crujientes empanadas rellenas de bondiola ahumada y queso mozzarella,acompañadas de salsa citrus y suero picante.",
+        price: "$35.000",
+        tags: [],
+        allergens: "Ninguno",
+        img: ""
+      },
+      {
+        name: "Patacones Poseidon",//#1
+        desc: "3 Unidades de Patacones crocantes coronados con mix de mariscos en salsa cóctel, terminados con langostinos salteados.",
+        price: "$40.000",
+        tags: [],
+        allergens: "Ninguno",
+        img: ""
+      },
+      {
+        name: "Tostaditas Trufadas",//#1
+        desc: "3 Tostadas de maíz crocantes con solomito trufado, terminadas con maicitos, queso parmesano y cebollin.",
+        price: "$38.000",
+        tags: [],
+        allergens: "Ninguno",
+        img: ""
+      },
+      /* ← Para agregar más entradas, pega un bloque aquí antes del ] */
+    ]
+  }, 
+     entradas: {
     title: "Entradas",
     tagline: "Para comenzar el viaje",
     items: [
